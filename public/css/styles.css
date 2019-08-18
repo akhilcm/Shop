@@ -1,0 +1,32 @@
+body{
+  background: #ffb3b3;
+}
+
+
+.container {
+  max-width: 560px;
+}
+
+.carousel-caption{
+  color:#000;
+  font-family: sans-serif;
+}
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+.d-block{
+  height: 400px;
+  width: 100%;
+  
+}
+
